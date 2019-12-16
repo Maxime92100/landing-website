@@ -1,0 +1,61 @@
+
+@import url("components:button.css");
+
+body{
+background-color:#FFFFFF;
+color: #0F76B8;
+font-family: 'Oswald', sans-serif;
+font-size: 18px;
+font-weight: lighter;
+}
+h1, h2, h3, h4{
+	font-family: 'Roboto', sans-serif;
+}
+
+h1{
+	color: #C41931;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	letter-spacing: 4px;
+}
+
+h2{
+	color: #C41931;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	letter-spacing: 6px;
+}
+
+h3{
+	color: #C41931;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	letter-spacing: 6px;
+}
+
+h4{
+	color: #C41931;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	letter-spacing: 6px;
+}
+
+a:hover{
+	color: #C41931;
+}
+
+.container{
+	text-align: center;
+}
+
+@media (max-width: 760px){
+	.container{
+		width: 600px
+	}
+}
+
+@media (max-width: 500px){
+	.container{
+		width: 400px
+	}
+}
